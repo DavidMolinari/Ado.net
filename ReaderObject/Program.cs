@@ -15,7 +15,10 @@ namespace ReaderObject
         {
             try
             {
-                String oracledb = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.10.2.10)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=SLAM)));User Id = raimonsql; Password = sio; ";
+                // String en local
+                String oracledb = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=xe)));User Id = molinarisql; Password = sio; ";
+                // String à utiliser en cours
+                //String oracledb = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.10.2.10)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=SLAM)));User Id = molinarisql; Password = sio; ";
 
                 String connectionString = oracledb;
                 OracleConnection connection = new OracleConnection();

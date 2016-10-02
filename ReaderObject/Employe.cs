@@ -41,7 +41,7 @@ namespace ReaderObject
 
         public override string ToString()
         {
-            return Numemp + " . " + Nomemp + " . " + Prenomemp + " . " + Poste + " . " + Salaire + " . " + Prime + " . " + CodeProjet + " . " + Superieur;
+            return Numemp + " - " + Nomemp + " - " + Prenomemp + " - " + Poste + " - " + Salaire + " - " + Prime + " - " + CodeProjet + " - " + Superieur;
         }
     }
 
